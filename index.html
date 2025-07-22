@@ -1,50 +1,69 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Medical Quiz</title>
-
-  <!-- Google Tag Manager -->
-  <script>
-    (function(w,d,s,l,i){
-      w[l]=w[l]||[];
-      w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-      var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),
-          dl=l!='dataLayer'?'&l='+l:'';
-      j.async=true;
-      j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-      f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MNH9S4TL');
-  </script>
-  <!-- End Google Tag Manager -->
-
-  <!-- Google Analytics 4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FRB7Z3MV2P"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-FRB7Z3MV2P');
-  </script>
-  <!-- End Google Analytics 4 -->
-
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      background-color: #fff;
+      padding: 10px 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    li:hover {
+      background-color: #e0f0ff;
+    }
+    .subtopics {
+      margin-top: 10px;
+      margin-left: 20px;
+      display: none;
+    }
+    .subtopics li {
+      background-color: #e8f6ff;
+    }
+  </style>
 </head>
 <body>
 
-  <!-- Google Tag Manager (noscript) -->
-  <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNH9S4TL" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
   <h1>Welcome to the Medical Quiz Platform!</h1>
   <p>Select a system to begin:</p>
+
   <ul>
-    <li><a href="#">Cardiology Questions</a></li>
-    <li><a href="#">Nephrology Questions</a></li>
-    <li><a href="#">Gastroenterology Questions</a></li>
+    <li onclick="toggleSubtopics('internal')">Internal Medicine</li>
+    <ul id="internal" class="subtopics">
+      <li>Cardiology</li>
+      <li>Hematology</li>
+      <li>Nephrology</li>
+      <li>Respiratory</li>
+      <li>Neurology</li>
+    </ul>
+
+    <li>Surgery</li>
+    <li>Pediatric</li>
+    <li>Obstetrics & Gynecology</li>
   </ul>
-  
+
+  <script>
+    function toggleSubtopics(id) {
+      const sub = document.getElementById(id);
+      sub.style.display = (sub.style.display === 'block') ? 'none' : 'block';
+    }
+  </script>
+
 </body>
 </html>
