@@ -3,39 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <title>Medical Quiz</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Nunito', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #ffffff);
       padding: 30px;
-      background-color: #f4f4f4;
-    }
-    h1 {
       color: #2c3e50;
     }
+
+    h1 {
+      font-size: 32px;
+      color: #00796b;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
     ul {
       list-style-type: none;
       padding: 0;
     }
+
     li {
-      background-color: #fff;
-      padding: 10px 15px;
+      background-color: #ffffff;
+      padding: 14px 20px;
       margin: 10px 0;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       cursor: pointer;
-      transition: background-color 0.3s;
+      transition: all 0.3s ease;
+      font-size: 18px;
     }
+
     li:hover {
-      background-color: #e0f0ff;
+      background-color: #b2dfdb;
+      transform: translateY(-2px);
     }
+
     .subtopics {
       margin-top: 10px;
       margin-left: 20px;
       display: none;
     }
+
     .subtopics li {
-      background-color: #e8f6ff;
+      background-color: #e0f2f1;
     }
+
   </style>
 </head>
 <body>
