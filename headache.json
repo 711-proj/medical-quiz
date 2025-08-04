@@ -174,23 +174,7 @@
     ],
     "answer": "A. Astrocytoma"
   },
-  {
-    "question": "A febrile patient with temp. 40 c, confused & irritable. His mouth is free. Chest is clear, no abnormality detected in CVS, Abdomen is soft, lax, no organomegaly. Lower & Upper limbs normal Apart from skin rash.\nWhat is the clinical diagnosis? What other 2 signs to look for? What is the differential diagnosis? How to confirm the diagnosis? Outline the management?",
-    "options": [
-      "Answer: Meningitis",
-      "Answer: 1. Kernig’s sign",
-      "2. Brudzinski's sign",
-      "Answer: 1. Brain abscess",
-      "2. Encephalitis",
-      "3. Cerebral malaria",
-      "Answer: Lumbar puncture for CSF analysis ,Only if no signs of raised intracranial pressure (do CT first if necessary)",
-      "Answer: 1. ABCs.",
-      "2. IV fluids.",
-      "3. antibiotics: start empiric therapy with Ceftriaxone, then shift to benzylpenicilline when Neisseria meningitidis is confirmed."
-    ],
-    "answer": "Answer: Meningitis"
-  },
-  {
+  { 
     "question": "A 70-year-old woman presented with an acute, severe occipital headache, unsteadiness of her gait, and vomiting. She had a history of poorly controlled hypertension. On examination there was nystagmus to the left, ataxia of the left limbs, and gait ataxia. What is the most likely diagnosis?",
     "options": [
       "A. Acute cerebellar hemorrhage",
