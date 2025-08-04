@@ -1,0 +1,204 @@
+[
+  {
+    "question": "A 40-year-old man complains of a severe headache of sudden onset that started 4 hours ago, likened to being kicked in the back of the head. He has vomited twice and is now feeling stiffness in his neck",
+    "options": [
+      "A. Amaurosis fugax",
+      "B. Analgesic headache",
+      "C. Cluster headache",
+      "K. Subarachnoid hemorrhage",
+      "L. Subdural hematoma"
+    ],
+    "answer": "K. Subarachnoid hemorrhage"
+  },
+  {
+    "question": "A 65 year-old woman with a history of unsteady gait of sudden onset associated with vomiting and headache for 12 hours, then she complained of an increasing drowsiness. What is your diagnosis?",
+    "options": [
+      "A. Acute subdural hemorrhage",
+      "B. Cerebellar hemorrhage",
+      "C. Frontal subdural empyema",
+      "D. Herpes simplex encephalitis",
+      "E. Pituitary apoplexy"
+    ],
+    "answer": "B. Cerebellar hemorrhage"
+  },
+  {
+    "question": "A 30-year-old female presented with a sudden onset of severe headache (the worst headache of her life), throbbing in nature and associated with neck pain and stiffness. What is the most likely diagnosis?",
+    "options": [
+      "A. Migraine",
+      "B. Subarachnoid hemorrhage",
+      "C. Cluster headache",
+      "D. Temporal arteritis",
+      "E. Brain tumor"
+    ],
+    "answer": "B. Subarachnoid hemorrhage"
+  },
+  {
+    "question": "A 22-year-old woman presents with daily band-like headaches over the past 2 weeks. The headaches seem to be more intense in the back of the head, and are often precipitated by emotional stress. Physical examination fails to disclose focal neurologic or visual deficits. Which of the following is the most appropriate initial step in patient care?",
+    "options": [
+      "A. Antidepressant drugs",
+      "B. Calcium-channel antagonists",
+      "C. Ergotamine-containing preparations",
+      "D. NSAIDs",
+      "E. Sumatriptan"
+    ],
+    "answer": "D. NSAIDs"
+  },
+  {
+    "question": "A 17-year-old female presents with three attacks of headache over a six month period. She describes the headaches as severe, right-sided and lasting for twelve hours and associated with nausea and photophobia. Each is preceded by spots before her eyes. What is the most appropriate initial treatment for this patient?",
+    "options": [
+      "A. Diclofenac. at the onset of the next attack",
+      "B. Ergotamine: suppository at the onset of the next attack",
+      "C. Paracetamol plus metoclopramide at the onset of the next attack",
+      "D. Prophylaxis with propranolol",
+      "E. Sumatriptan at the onset of the next attack"
+    ],
+    "answer": "E. Sumatriptan at the onset of the next attack"
+  },
+  {
+    "question": "A 19-year-old girl presents with headache, fever, photophobia and neck stiffness. Choose the most likely infecting organism from the options.",
+    "options": [
+      "A. Campylobacter jejuni",
+      "B. Mycobacterium tuberculosis",
+      "C. Neisseria meningitidis",
+      "D. Pneumocystis jiroveci",
+      "E. Staphylococcus aureus"
+    ],
+    "answer": "C. Neisseria meningitidis"
+  },
+  {
+    "question": "A 35-year-old man has had nocturnal attacks of severe periorbital headache for the past 5 days. Each episode awakens him at night within 2 hours of falling asleep, lasts for less than an hour, and is associated with ipsilateral rhinorrhea and lacrimation. Which of the following is the most likely diagnosis?",
+    "options": [
+      "A. Acute glaucoma",
+      "B. Cluster headache",
+      "C. Migraine",
+      "D. Sinusitis",
+      "E. Tension headache"
+    ],
+    "answer": "B. Cluster headache"
+  },
+  {
+    "question": "A 52-year-old man with ischaemic heart disease requires treatment for an acute migraine attack that has not responded to paracetamol.",
+    "options": [
+      "A. Acetazoiamide",
+      "B. Amitriptylin",
+      "C. High-dose aspirin and metoclopramide",
+      "D. Propranolol",
+      "E. Sumatriptan"
+    ],
+    "answer": "C. High-dose aspirin and metoclopramide"
+  },
+  {
+    "question": "A 25-year-old lady on contraceptive pills presented with headache, blurring of vision, and convulsions, She was afebrile. What is the most possible cause of her symptoms?",
+    "options": [
+      "a. HSV encephalitis",
+      "b. Meningitis",
+      "c. Multiple sclerosis",
+      "d. Idiopathic intracranial hypertension",
+      "e. Brainstem infarct"
+    ],
+    "answer": "d. Idiopathic intracranial hypertension"
+  },
+  {
+    "question": "An alcoholic patient presents with headache and confusion for 10 hours. What is the most likely diagnosis?",
+    "options": [
+      "A) Acute subdural hemorrhage",
+      "B) Alcoholic ketoacidosis",
+      "C) Hypertensive crisis",
+      "D) Wernicke's encephalopathy"
+    ],
+    "answer": "A) Acute subdural hemorrhage"
+  },
+  {
+    "question": "A 70-year-old woman presented with an acute, severe occipital headache, unsteadiness of her gait, and vomiting. She had a history of poorly controlled hypertension. On examination there was nystagmus to the left, ataxia of the left limbs, and gait ataxia. What is the most likely diagnosis?",
+    "options": [
+      "A. Acute cerebellar hemorrhage",
+      "B. Basal ganglia hemorrhage",
+      "C. Pontine hemorrhage",
+      "D. Subarachnoid hemorrhage",
+      "E. Millard-Gubler syndrome"
+    ],
+    "answer": "A. Acute cerebellar hemorrhage"
+  },
+  {
+    "question": "A 65-year-old woman presents with a headache that has lasted a few weeks. She gets pain in her mouth during meals and her scalp is tender on palpation, recommend the appropriate treatment.",
+    "options": [
+      "A. Hydrocortisone",
+      "B. Morphine",
+      "C. Prednisolone",
+      "D. Propranolol",
+      "E. Sumatriptan"
+    ],
+    "answer": "C. Prednisolone"
+  },
+  {
+    "question": "A 32-year-old female presents with headaches. She has a severe frontal and occipital headache which is present as soon as she wakes in the mornings. She had given birth to a baby boy one month ago and has not been feeling well since. Examination revealed bilateral blurring of the optic discs with pupil sparing, and 3rd nerve palsy on the right. What is the most likely diagnosis?",
+    "options": [
+      "A. Brainstem Cerebrovascular Stroke",
+      "B. Herpes simplex encephalitis",
+      "C. Meningococcal meningitis",
+      "D. Sagittal sinus thrombosis",
+      "E. Sphenoidal wing meningioma"
+    ],
+    "answer": "D. Sagittal sinus thrombosis"
+  },
+  {
+    "question": "A young teenager with fever and headache has been treated with oral amoxicillin for three days. Which of the following findings would virtually confirm the diagnosis of bacterial meningitis?",
+    "options": [
+      "A. Positive Kernig’s sign",
+      "B. Positive Brudzinski’s sign",
+      "C. Lumbar puncture showing increased neutrophils and decreased glucose",
+      "D. Elevated serum procalcitonin",
+      "E. Normal head CT with no evidence of raised intracranial pressure"
+    ],
+    "answer": "C. Lumbar puncture showing increased neutrophils and decreased glucose"
+  },
+  {
+    "question": "An 82-year-old lady is admitted from her nursing home with headache, photophobia and neck stiffness. Her temperature is 39.0°C, pulse rate 115 beats/min. There is no skin rash or focal neurological signs, her Glasgow coma scale is 15/15. CT scan shows no contraindication to lumbar puncture. CSF is obtained and Gram stain shows Gram negative cocco-bacilli, subsequent culture confirms Haemophilus influenzae meningitis. What chemoprophylaxis should be offered to her contacts?",
+    "options": [
+      "A. Azithromycin",
+      "B. Ceftriaxone",
+      "C. Ciprofloxacin",
+      "D. No chemoprophylaxis required",
+      "E. Rifampicin"
+    ],
+    "answer": "E. Rifampicin"
+  },
+  {
+    "question": "Question: A 55-year-old woman with hypertension presents with 3 weeks of worsening headaches and language difficulty. She reports severe headaches that wake her from sleep and are worse in the morning, frequently associated with nausea. She complains of slowness of speech and difficulty with word-finding. She is afebrile. A neurologic examination is remarkable for slow, effortful speech with poor repetition, and a right pronator drift. An urgent MRI study shows a diffusely enhancing intra-axial abnormality in the left frontal region. Which of the following is the most likely diagnosis?",
+    "options": [
+      "A. Astrocytoma",
+      "B. Brain abscess",
+      "C. Cerebral infarct",
+      "D. Complicated migraine",
+      "E. Meningioma"
+    ],
+    "answer": "A. Astrocytoma"
+  },
+  {
+    "question": "A febrile patient with temp. 40 c, confused & irritable. His mouth is free. Chest is clear, no abnormality detected in CVS, Abdomen is soft, lax, no organomegaly. Lower & Upper limbs normal Apart from skin rash.\nWhat is the clinical diagnosis? What other 2 signs to look for? What is the differential diagnosis? How to confirm the diagnosis? Outline the management?",
+    "options": [
+      "Answer: Meningitis",
+      "Answer: 1. Kernig’s sign",
+      "2. Brudzinski's sign",
+      "Answer: 1. Brain abscess",
+      "2. Encephalitis",
+      "3. Cerebral malaria",
+      "Answer: Lumbar puncture for CSF analysis ,Only if no signs of raised intracranial pressure (do CT first if necessary)",
+      "Answer: 1. ABCs.",
+      "2. IV fluids.",
+      "3. antibiotics: start empiric therapy with Ceftriaxone, then shift to benzylpenicilline when Neisseria meningitidis is confirmed."
+    ],
+    "answer": "Answer: Meningitis"
+  },
+  {
+    "question": "A 70-year-old woman presented with an acute, severe occipital headache, unsteadiness of her gait, and vomiting. She had a history of poorly controlled hypertension. On examination there was nystagmus to the left, ataxia of the left limbs, and gait ataxia. What is the most likely diagnosis?",
+    "options": [
+      "A. Acute cerebellar hemorrhage",
+      "B. Basal ganglia hemorrhage",
+      "C. Pontine hemorrhage",
+      "D. Subarachnoid hemorrhage",
+      "E. Millard-Gubler syndrome"
+    ],
+    "answer": "A. Acute cerebellar hemorrhage"
+  }
+]
