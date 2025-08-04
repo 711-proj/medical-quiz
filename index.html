@@ -2,97 +2,130 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Medical Quiz</title>
-
-  <!-- Google Fonts -->
+  <title>Headache Quiz</title>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-
   <style>
     body {
       font-family: 'Nunito', sans-serif;
-      background: linear-gradient(135deg, #e0f7fa, #ffffff);
       padding: 30px;
-      color: #2c3e50;
+      background-color: #f5f5f5;
     }
-
     h1 {
-      font-size: 32px;
       color: #00796b;
+      margin-bottom: 30px;
     }
-
-    p {
-      font-size: 18px;
-      margin-bottom: 20px;
-    }
-
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    li {
-      background-color: #ffffff;
-      padding: 14px 20px;
-      margin: 10px 0;
+    .question {
+      margin-bottom: 25px;
+      background: #fff;
+      padding: 20px;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .question p {
+      font-weight: bold;
+    }
+    .options li {
+      list-style: none;
+      padding: 10px;
+      background-color: #fafafa;
+      margin: 6px 0;
+      border-radius: 6px;
       cursor: pointer;
-      transition: all 0.3s ease;
-      font-size: 18px;
-      user-select: none;
+      transition: background-color 0.3s ease;
     }
-
-    li:hover {
-      background-color: #b2dfdb;
-      transform: translateY(-2px);
+    .options li:hover {
+      background-color: #c8e6c9;
     }
-
-    .subtopics {
-      margin-top: 10px;
-      margin-left: 20px;
-      display: none;
+    .correct {
+      background-color: #a5d6a7 !important;
     }
-
-    .subtopics li {
-      background-color: #e0f2f1;
+    .incorrect {
+      background-color: #ef9a9a !important;
+    }
+    .answer-reveal {
+      margin-top: 8px;
+      color: #00796b;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-
-  <h1>Welcome to the Medical Quiz Platform!</h1>
-  <p>Select a system to begin:</p>
-
-  <ul>
-    <li onclick="toggleSubtopics('internal')">Internal Medicine</li>
-    <ul id="internal" class="subtopics">
-      <li onclick="toggleSubtopics('neurology')">Neurology</li>
-      <ul id="neurology" class="subtopics">
-        <!-- عند الضغط على headache يتم فتح صفحة جديدة -->
-        <li onclick="openQuizPage('headache.json', 'Headache Quiz')">Headache</li>
-        <li onclick="openQuizPage('meningitis.json', 'Meningitis Quiz')">Meningitis</li>
-      </ul>
-    </ul>
-
-    <li>Surgery</li>
-    <li>Pediatric</li>
-    <li>Obstetrics & Gynecology</li>
-  </ul>
+  <h1>Headache Quiz</h1>
+  <div id="quiz-container">Loading questions...</div>
 
   <script>
-    function toggleSubtopics(id) {
-      const sub = document.getElementById(id);
-      if (!sub) return;
-      sub.style.display = (sub.style.display === 'block') ? 'none' : 'block';
-    }
+    // قراءة اسم ملف الأسئلة من الرابط: headache.html?file=headache.json
+    const params = new URLSearchParams(window.location.search);
+    const file = params.get('file');
 
-    // تفتح صفحة جديدة مع تمرير اسم ملف الأسئلة واسم الصفحة
-    function openQuizPage(jsonFile, title) {
-      // نستخدم query string لتمرير اسم الملف والاسم
-      const url = `quiz.html?file=${encodeURIComponent(jsonFile)}&title=${encodeURIComponent(title)}`;
-      window.open(url, '_blank'); // فتح في تبويب جديد
+    const container = document.getElementById('quiz-container');
+
+    if (!file) {
+      container.innerHTML = '<p>No quiz file provided.</p>';
+    } else {
+      fetch(file)
+        .then(res => {
+          if (!res.ok) throw new Error('Failed to load quiz file');
+          return res.json();
+        })
+        .then(data => {
+          container.innerHTML = '';
+
+          data.forEach((q, i) => {
+            const questionDiv = document.createElement('div');
+            questionDiv.className = 'question';
+
+            const questionText = document.createElement('p');
+            questionText.textContent = `Q${i + 1}: ${q.question}`;
+            questionDiv.appendChild(questionText);
+
+            const optionsList = document.createElement('ul');
+            optionsList.className = 'options';
+
+            q.options.forEach(opt => {
+              const li = document.createElement('li');
+              li.textContent = opt.text;
+
+              li.onclick = () => {
+                // منع الاختيار أكثر من مرة للسؤال نفسه
+                if (optionsList.querySelector('.correct') || optionsList.querySelector('.incorrect')) return;
+
+                if (opt.isAnswer) {
+                  li.classList.add('correct');
+                } else {
+                  li.classList.add('incorrect');
+                  // إبراز الخيار الصحيح أيضاً
+                  Array.from(optionsList.children).forEach(child => {
+                    if (child.textContent === q.correctAnswerText) {
+                      child.classList.add('correct');
+                    }
+                  });
+                }
+
+                // إظهار شرح الإجابة إذا كان موجود
+                if (q.answerExplanation) {
+                  const existingExplanation = questionDiv.querySelector('.answer-reveal');
+                  if (!existingExplanation) {
+                    const explanationP = document.createElement('p');
+                    explanationP.className = 'answer-reveal';
+                    explanationP.textContent = `Explanation: ${q.answerExplanation}`;
+                    questionDiv.appendChild(explanationP);
+                  }
+                }
+              };
+
+              optionsList.appendChild(li);
+            });
+
+            questionDiv.appendChild(optionsList);
+            container.appendChild(questionDiv);
+          });
+        })
+        .catch(error => {
+          container.innerHTML = `<p>Error loading questions: ${error.message}</p>`;
+          console.error(error);
+        });
     }
   </script>
-
 </body>
 </html>
