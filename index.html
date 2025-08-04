@@ -68,9 +68,9 @@
     <ul id="internal" class="subtopics">
       <li onclick="toggleSubtopics('neurology')">Neurology</li>
       <ul id="neurology" class="subtopics">
-        <!-- عند الضغط على headache يتم فتح صفحة جديدة -->
-        <li onclick="openQuizPage('headache.json', 'Headache Quiz')">Headache</li>
-        <li onclick="openQuizPage('meningitis.json', 'Meningitis Quiz')">Meningitis</li>
+        <!-- ✅ تم تغيير هذا السطر فقط ليفتح headache.html -->
+        <li onclick="openQuizPage('headache.json', 'headache.html')">Headache</li>
+        <li onclick="openQuizPage('meningitis.json', 'meningitis.html')">Meningitis</li>
       </ul>
     </ul>
 
@@ -86,11 +86,10 @@
       sub.style.display = (sub.style.display === 'block') ? 'none' : 'block';
     }
 
-    // تفتح صفحة جديدة مع تمرير اسم ملف الأسئلة واسم الصفحة
-    function openQuizPage(jsonFile, title) {
-      // نستخدم query string لتمرير اسم الملف والاسم
-      const url = `quiz.html?file=${encodeURIComponent(jsonFile)}&title=${encodeURIComponent(title)}`;
-      window.open(url, '_blank'); // فتح في تبويب جديد
+    // تفتح صفحة جديدة مع تمرير اسم ملف الأسئلة
+    function openQuizPage(jsonFile, htmlFile) {
+      const url = `${htmlFile}?file=${encodeURIComponent(jsonFile)}`;
+      window.open(url, '_blank');
     }
   </script>
 
