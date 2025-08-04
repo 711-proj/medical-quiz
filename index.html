@@ -56,6 +56,33 @@
       background-color: #e0f2f1;
     }
 
+    #quiz-container {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .question {
+      margin-bottom: 20px;
+    }
+
+    .question p {
+      font-weight: bold;
+    }
+
+    .options li {
+      padding: 10px;
+      background-color: #fafafa;
+      margin: 6px 0;
+      border-radius: 6px;
+    }
+
+    .explanation {
+      margin-top: 10px;
+      color: #00796b;
+    }
   </style>
 </head>
 <body>
@@ -70,7 +97,7 @@
       <li>Hematology</li>
       <li>Nephrology</li>
       <li>Respiratory</li>
-      <li>Neurology</li>
+      <li onclick="loadQuestions('neurology.json')">Neurology</li>
     </ul>
 
     <li>Surgery</li>
@@ -78,10 +105,37 @@
     <li>Obstetrics & Gynecology</li>
   </ul>
 
+  <div id="quiz-container"></div>
+
   <script>
     function toggleSubtopics(id) {
       const sub = document.getElementById(id);
       sub.style.display = (sub.style.display === 'block') ? 'none' : 'block';
+    }
+
+    function loadQuestions(file) {
+      fetch(file)
+        .then(res => res.json())
+        .then(data => {
+          const container = document.getElementById('quiz-container');
+          container.innerHTML = ''; // Clear previous content
+          data.forEach((q, i) => {
+            const div = document.createElement('div');
+            div.className = 'question';
+            div.innerHTML = `
+              <p>Q${i + 1}: ${q.question}</p>
+              <ul class="options">
+                ${q.options.map(opt => `<li>${opt}</li>`).join('')}
+              </ul>
+              <p class="explanation"><strong>Answer:</strong> ${q.answer}<br><em>${q.explanation}</em></p>
+            `;
+            container.appendChild(div);
+          });
+        })
+        .catch(err => {
+          document.getElementById('quiz-container').innerHTML = '<p>Error loading questions.</p>';
+          console.error(err);
+        });
     }
   </script>
 
