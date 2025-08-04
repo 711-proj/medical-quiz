@@ -68,8 +68,9 @@
     <ul id="internal" class="subtopics">
       <li onclick="toggleSubtopics('neurology')">Neurology</li>
       <ul id="neurology" class="subtopics">
-        <li onclick="window.open('headache.html', '_blank')">Headache</li>
-        <li onclick="window.open('meningitis.html', '_blank')">Meningitis</li>
+        <!-- عند الضغط على headache يتم فتح صفحة جديدة -->
+        <li onclick="openQuizPage('headache.json', 'Headache Quiz')">Headache</li>
+        <li onclick="openQuizPage('meningitis.json', 'Meningitis Quiz')">Meningitis</li>
       </ul>
     </ul>
 
@@ -83,6 +84,13 @@
       const sub = document.getElementById(id);
       if (!sub) return;
       sub.style.display = (sub.style.display === 'block') ? 'none' : 'block';
+    }
+
+    // تفتح صفحة جديدة مع تمرير اسم ملف الأسئلة واسم الصفحة
+    function openQuizPage(jsonFile, title) {
+      // نستخدم query string لتمرير اسم الملف والاسم
+      const url = `quiz.html?file=${encodeURIComponent(jsonFile)}&title=${encodeURIComponent(title)}`;
+      window.open(url, '_blank'); // فتح في تبويب جديد
     }
   </script>
 
