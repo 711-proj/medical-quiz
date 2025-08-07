@@ -184,5 +184,16 @@
       "E. Millard-Gubler syndrome"
     ],
     "answer": "A. Acute cerebellar hemorrhage"
+  },
+  {
+    "question": "A 50-year-old patient presented with acute onset, excruciating headache and neck stiffness.Urgent investigations include all of the following, except: ",
+    "options": [
+      "A. Complete blood count",
+      "B. CSF examination", 
+      "C. CT brain",
+      "D. Widal for enteric fever",
+      "E. Blood film for malaria",
+    ],
+    "answer": "D. Widal for enteric fever"
   }
 ]
