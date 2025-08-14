@@ -68,9 +68,9 @@
     <ul id="internal" class="subtopics">
       <li onclick="toggleSubtopics('neurology')">Neurology</li>
       <ul id="neurology" class="subtopics">
-        <!-- ✅ تم تغيير هذا السطر فقط ليفتح headache.html -->
         <li onclick="openQuizPage('headache.json', 'headache.html')">Headache</li>
         <li onclick="openQuizPage('meningitis.json', 'meningitis.html')">Meningitis</li>
+        <li onclick="openQuizPage('stroke.json', 'stroke.html')">Stroke</li>
       </ul>
     </ul>
 
@@ -86,7 +86,7 @@
       sub.style.display = (sub.style.display === 'block') ? 'none' : 'block';
     }
 
-    // تفتح صفحة جديدة مع تمرير اسم ملف الأسئلة
+    // فتح صفحة جديدة مع تمرير اسم ملف JSON
     function openQuizPage(jsonFile, htmlFile) {
       const url = `${htmlFile}?file=${encodeURIComponent(jsonFile)}`;
       window.open(url, '_blank');
