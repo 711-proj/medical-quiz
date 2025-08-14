@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Stroke Quiz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Nunito', sans-serif;
+      padding: 30px;
+      background-color: #f5f5f5;
+    }
+
+    h1 {
+      color: #00796b;
+    }
+
+    .question {
+      margin-bottom: 25px;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .question p {
+      font-weight: bold;
+    }
+
+    .options li {
+      list-style: none;
+      padding: 10px;
+      background-color: #fafafa;
+      margin: 6px 0;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .options li:hover {
+      background-color: #c8e6c9;
+    }
+
+    .correct {
+      background-color: #a5d6a7 !important;
+    }
+
+    .incorrect {
+      background-color: #ef9a9a !important;
+    }
+
+    .answer-reveal {
+      margin-top: 8px;
+      color: #00796b;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Stroke Quiz</h1>
+  <div id="quiz-container">Loading...</div>
+
+  <script>
+    const file = 'stroke.json'; // هنا نحدد ملف الأسئلة الخاص بالـ Stroke
+
+    const container = document.getElementById('quiz-container');
+
+    fetch(file)
+      .then(res => {
+        if (!res.ok) throw new Error('Failed to load questions');
+        return res.json();
+      })
+      .then(data => {
+        container.innerHTML = '';
+        data.forEach((q, i) => {
+          const questionDiv = document.createElement('div');
+          questionDiv.className = 'question';
+
+          const questionText = document.createElement('p');
+          questionText.textContent = `Q${i + 1}: ${q.question}`;
+          questionDiv.appendChild(questionText);
+
+          const optionsList = document.createElement('ul');
+          optionsList.className = 'options';
+
+          q.options.forEach(opt => {
+            const li = document.createElement('li');
+            li.textContent = opt;
+            li.onclick = () => {
+              if (optionsList.querySelector('.correct') || optionsList.querySelector('.incorrect')) return;
+
+              if (opt === q.answer) {
+                li.classList.add('correct');
+              } else {
+                li.classList.add('incorrect');
+                Array.from(optionsList.children).forEach(child => {
+                  if (child.textContent === q.answer) {
+                    child.classList.add('correct');
+                  }
+                });
+              }
+              showAnswerExplanation(questionDiv, q.answer);
+            };
+            optionsList.appendChild(li);
+          });
+
+          questionDiv.appendChild(optionsList);
+          container.appendChild(questionDiv);
+        });
+      })
+      .catch(() => {
+        container.innerHTML = '<p>Failed to load questions.</p>';
+      });
+
+    function showAnswerExplanation(questionDiv, answer) {
+      const p = document.createElement('p');
+      p.className = 'answer-reveal';
+      p.textContent = `Correct answer: ${answer}`;
+      questionDiv.appendChild(p);
+    }
+  </script>
+</body>
+</html>
