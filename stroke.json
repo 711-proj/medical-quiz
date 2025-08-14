@@ -1,0 +1,143 @@
+[
+  {
+    "question": "In a patient with a stroke, cerebral emboli are more likely if the patient has:",
+    "options": [
+      "loss of consciousness.",
+      "a blood pressure of 200/140 mmHg.",
+      "subhyaloid hemorrhage.",
+      "apical diastolic murmur.",
+      "history of gradual onset of weakness."
+    ],
+    "answer": "apical diastolic murmur."
+  },
+  {
+    "question": "A 65-year-old male presented with a complaint of right-side weakness. A brain CT showed a cerebral infarction. What is the first plan of management?",
+    "options": [
+      "Aspirin",
+      "Clopidogrel",
+      "Streptokinase",
+      "Atorvastatin"
+    ],
+    "answer": "Aspirin"
+  },
+  {
+    "question": "A 60 years old man with a past history of controlled hypertension presented with acute onset weakness of his left arm that resolved over 12 hours. He had suffered two similar episodes over the last three months. Examination reveals B.P 130/85 and he is in atrial fibrillation with a ventricular rate of 95 per min. Brain CT scan is normal. What is the most appropriate management:",
+    "options": [
+      "amiodarone.",
+      "aspirin.",
+      "digoxin.",
+      "dipyridamole.",
+      "warfarin."
+    ],
+    "answer": "warfarin."
+  },
+  {
+    "question": "A 76-year-old man fell to the floor while standing in a long queue. He regained consciousness within 2 minutes. He was not incontinent of urine or stools.",
+    "options": [
+      "epilepsy",
+      "hypoglycaemia",
+      "postural hypotension",
+      "vasovagal syncope",
+      "vertebrobasilar ischemia"
+    ],
+    "answer": "vasovagal syncope"
+  },
+  {
+    "question": "Which one of the following is TRUE about a comatose patient with unilateral dilated fixed pupil?",
+    "options": [
+      "Pontine hemorrhage is the most likely cause.",
+      "This sign indicates that the patient has brain stem death.",
+      "Drug screen to exclude barbiturate overdose is mandatory.",
+      "Rapid neurosurgical intervention is often needed."
+    ],
+    "answer": "Rapid neurosurgical intervention is often needed."
+  },
+  {
+    "question": "Which of the following may cause a cerebral infarct?",
+    "options": [
+      "Aortic dissection.",
+      "Myocardial infarction.",
+      "Common carotid occlusion.",
+      "All of the above.",
+      "None of the above."
+    ],
+    "answer": "All of the above."
+  },
+  {
+    "question": "Crossed hemiplegia indicates the site of lesion in:",
+    "options": [
+      "Internal capsule",
+      "Cortex",
+      "Cervical spine",
+      "Brainstem",
+      "Basal ganglia"
+    ],
+    "answer": "Brainstem"
+  },
+  {
+    "question": "Thrombosis of left middle cerebral artery may give rise to:",
+    "options": [
+      "Diplopia",
+      "Paralysis of conjugate gaze towards left",
+      "Right homonymous hemianopia",
+      "Hemiplegia of the right side where affection of leg is more than arm",
+      "Right monocular loss of vision"
+    ],
+    "answer": "Right homonymous hemianopia"
+  },
+  {
+    "question": "Male, 45 years old, smoker, diabetic, dyslipidemic, came with acute onset right hemiplegia, aphasia (non-fluent), right homonymous hemianopia, left gaze preference. What is the most likely diagnosis?",
+    "options": [
+      "Left middle cerebral artery (MCA) thromboembolic stroke",
+      "Right middle cerebral artery (MCA) hemorrhagic stroke",
+      "Left anterior cerebral artery (ACA) ischemic stroke",
+      "Right posterior cerebral artery (PCA) infarct",
+      "Pontine (brainstem) stroke"
+    ],
+    "answer": "Left middle cerebral artery (MCA) thromboembolic stroke"
+  },
+  {
+    "question": "A 62-year-old lady presented with left sided facial pain, with numbness and blurring of vision, one day later she presents with sudden onset of right hemiparesis, facial weakness and homonymous hemianopia and left Horner's syndrome. A CT brain showed a left middle cerebral artery territory infarction, what is the most likely diagnosis?",
+    "options": [
+      "Embolic stroke from a left atrial thrombus lodging in the left MCA",
+      "Primary hypercoagulable state leading to simultaneous MCA and ophthalmic artery involvement",
+      "Left internal carotid artery dissection causing thromboembolic left MCA stroke",
+      "Giant cell arteritis complicated by left MCA infarction",
+      "Left cavernous sinus thrombosis with secondary MCA territory infarct"
+    ],
+    "answer": "Left internal carotid artery dissection causing thromboembolic left MCA stroke"
+  },
+  {
+    "question": "A 70-year-old male presented with a sudden onset of left-sided hemiplegia and left upper motor neuron facial palsy for 3 hours. The immediate investigation that should be done is:",
+    "options": [
+      "MRI brain & cervical spines",
+      "Prothrombin time",
+      "MRI brain",
+      "Brain CT scan",
+      "Hemoglobin concentration"
+    ],
+    "answer": "Brain CT scan"
+  },
+  {
+    "question": "A 35-year-old man presented with sudden onset of Lt sided LMN (lower motor neuron) facial palsy, which one of the following is correct?",
+    "options": [
+      "It is associated with ptosis",
+      "It is not associated with viral infection.",
+      "It is associated with loss of facial sensation.",
+      "If it is acute the treatment of choice is steroid and acyclovir.",
+      "Most likely, it is caused by a stroke."
+    ],
+    "answer": "If it is acute the treatment of choice is steroid and acyclovir."
+  },
+  {
+    "question": "A 60-year-old man has a 6-month history of transient loss of vision in the right eye, described as a curtain falling. He has a history of hypertension and hyperlipidemia. Which of the following is the most appropriate next step in management?",
+    "options": [
+      "Aspirin",
+      "Carotid endarterectomy",
+      "Dipyridamole",
+      "Prednisolone",
+      "Warfarin"
+    ],
+    "answer": "Aspirin"
+  }
+]
