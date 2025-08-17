@@ -49,6 +49,7 @@
 
   <script>
     async function loadQuiz() {
+      // قراءة اسم ملف JSON من الرابط، افتراضي htninpregnancy.json
       const params = new URLSearchParams(window.location.search);
       const file = params.get('file') || 'htninpregnancy.json';
 
@@ -59,6 +60,7 @@
         displayQuiz(questions);
       } catch (error) {
         document.getElementById('quiz-container').innerHTML = "<p style='color:red;'>Error loading quiz file.</p>";
+        console.error(error);
       }
     }
 
@@ -78,10 +80,15 @@
           const li = document.createElement("li");
           li.textContent = opt;
           li.onclick = () => {
+            if (ul.querySelector('.correct') || ul.querySelector('.wrong')) return; // منع الضغط المتكرر
             if (opt === q.answer) {
               li.classList.add("correct");
             } else {
               li.classList.add("wrong");
+              // إبراز الإجابة الصحيحة
+              Array.from(ul.children).forEach(child => {
+                if (child.textContent === q.answer) child.classList.add("correct");
+              });
             }
           };
           ul.appendChild(li);
