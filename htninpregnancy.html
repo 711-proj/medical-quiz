@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hypertension in Pregnancy Quiz</title>
+  <title>HTN in Pregnancy Quiz</title>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -11,100 +11,88 @@
       padding: 30px;
       color: #2c3e50;
     }
-
     h1 {
       font-size: 28px;
-      color: #ad1457;
+      color: #880e4f;
       margin-bottom: 20px;
     }
-
     .question {
-      background-color: #ffffff;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      margin-bottom: 20px;
+      margin-bottom: 25px;
+      padding: 15px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
-
-    .options {
-      list-style-type: none;
-      padding: 0;
-    }
-
     .options li {
-      background-color: #f8bbd0;
-      padding: 12px;
+      list-style: none;
       margin: 8px 0;
+      padding: 10px;
+      background: #f8bbd0;
       border-radius: 8px;
       cursor: pointer;
-      transition: all 0.3s ease;
+      transition: background 0.3s;
     }
-
     .options li:hover {
-      background-color: #f48fb1;
-      transform: translateY(-2px);
+      background: #f48fb1;
     }
-
     .correct {
-      background-color: #81c784 !important;
-      color: white;
+      background-color: #c8e6c9 !important;
     }
-
-    .incorrect {
-      background-color: #e57373 !important;
-      color: white;
+    .wrong {
+      background-color: #ffcdd2 !important;
     }
   </style>
 </head>
 <body>
-
-  <h1>Hypertension in Pregnancy Quiz</h1>
-  <div id="quiz"></div>
+  <h1>HTN in Pregnancy Quiz</h1>
+  <div id="quiz-container"></div>
 
   <script>
-    // الحصول على اسم الملف من الرابط
-    const urlParams = new URLSearchParams(window.location.search);
-    const jsonFile = urlParams.get('file') || 'htninpregnancy.json';
+    async function loadQuiz() {
+      const params = new URLSearchParams(window.location.search);
+      const file = params.get('file') || 'htninpregnancy.json';
 
-    // تحميل الأسئلة
-    fetch(jsonFile)
-      .then(response => response.json())
-      .then(data => {
-        const quizContainer = document.getElementById('quiz');
-        data.forEach((q, index) => {
-          const questionDiv = document.createElement('div');
-          questionDiv.classList.add('question');
+      try {
+        const response = await fetch(file);
+        if (!response.ok) throw new Error("File not found");
+        const questions = await response.json();
+        displayQuiz(questions);
+      } catch (error) {
+        document.getElementById('quiz-container').innerHTML = "<p style='color:red;'>Error loading quiz file.</p>";
+      }
+    }
 
-          const questionTitle = document.createElement('h3');
-          questionTitle.textContent = `${index + 1}. ${q.question}`;
-          questionDiv.appendChild(questionTitle);
+    function displayQuiz(questions) {
+      const container = document.getElementById('quiz-container');
+      container.innerHTML = "";
 
-          const optionsList = document.createElement('ul');
-          optionsList.classList.add('options');
+      questions.forEach((q, index) => {
+        const qDiv = document.createElement("div");
+        qDiv.classList.add("question");
+        qDiv.innerHTML = `<h3>Q${index+1}: ${q.question}</h3>`;
 
-          q.options.forEach(option => {
-            const li = document.createElement('li');
-            li.textContent = option;
-            li.onclick = () => {
-              if (option === q.answer) {
-                li.classList.add('correct');
-              } else {
-                li.classList.add('incorrect');
-              }
-              // منع إعادة الاختيار
-              Array.from(optionsList.children).forEach(opt => opt.style.pointerEvents = 'none');
-            };
-            optionsList.appendChild(li);
-          });
+        const ul = document.createElement("ul");
+        ul.classList.add("options");
 
-          questionDiv.appendChild(optionsList);
-          quizContainer.appendChild(questionDiv);
+        q.options.forEach(opt => {
+          const li = document.createElement("li");
+          li.textContent = opt;
+          li.onclick = () => {
+            if (opt === q.answer) {
+              li.classList.add("correct");
+            } else {
+              li.classList.add("wrong");
+            }
+          };
+          ul.appendChild(li);
         });
-      })
-      .catch(err => {
-        document.getElementById('quiz').innerHTML = "<p>⚠️ Error loading quiz file.</p>";
-      });
-  </script>
 
+        qDiv.appendChild(ul);
+        container.appendChild(qDiv);
+      });
+    }
+
+    loadQuiz();
+  </script>
 </body>
 </html>
