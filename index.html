@@ -76,7 +76,12 @@
 
     <li>Surgery</li>
     <li>Pediatric</li>
-    <li>Obstetrics & Gynecology</li>
+
+    <!-- قسم النساء والولادة -->
+    <li onclick="toggleSubtopics('obgyn')">Obstetrics & Gynecology</li>
+    <ul id="obgyn" class="subtopics">
+      <li onclick="openQuizPage('htninpregnancy.json', 'htninpregnancy.html')">HTN in Pregnancy</li>
+    </ul>
   </ul>
 
   <script>
