@@ -1,102 +1,106 @@
-<script>
-const quiz = {
-  topic: "Preeclampsia",
-  questions: [
+{
+  "topic": "Preeclampsia",
+  "questions": [
     {
-      question: "Which of the following is NOT a symptom of pre-eclampsia?",
-      options: ["Headache","Blurred or flashing vision","Swelling of hands and face","Rash","Epigastric pain"],
-      answer: "Rash"
+      "question": "Which of the following is NOT a symptom of pre-eclampsia?",
+      "options": ["Headache", "Blurred or flashing vision", "Swelling of hands and face", "Rash", "Epigastric pain"],
+      "answer": "Rash"
     },
     {
-      question: "A 29-year-old G1P0 woman at 28 weeks’ gestation… Which of the following findings is most likely present to necessitate delivery?",
-      options: ["PT INR of 1.9 and PTT of 50 s","Elevated uric acid levels","4+ pedal edema","Platelet count of 115,000/µL","5 g of proteinuria excreted in 24 hours"],
-      answer: "5 g of proteinuria excreted in 24 hours"
+      "question": "A 29-year-old G1P0 woman at 28 weeks’ gestation… Which of the following findings is most likely present to necessitate delivery?",
+      "options": ["PT INR of 1.9 and PTT of 50 s", "Elevated uric acid levels", "4+ pedal edema", "Platelet count of 115,000/µL", "5 g of proteinuria excreted in 24 hours"],
+      "answer": "5 g of proteinuria excreted in 24 hours"
     },
     {
-      question: "Best management of an 18-year-old G1P0 woman at 28 weeks with BP 160/110, elevated LFTs, platelets 60,000/µL:",
-      options: ["Magnesium sulfate therapy and induction of labor","Oral antihypertensive therapy","Platelet transfusion","Intravenous immunoglobulin therapy","Expectant management with observation"],
-      answer: "Magnesium sulfate therapy and induction of labor"
+      "question": "Best management of an 18-year-old G1P0 woman at 28 weeks with BP 160/110, elevated LFTs, platelets 60,000/µL",
+      "options": ["Magnesium sulfate therapy and induction of labor", "Oral antihypertensive therapy", "Platelet transfusion", "Intravenous immunoglobulin therapy", "Expectant management with observation"],
+      "answer": "Magnesium sulfate therapy and induction of labor"
     },
     {
-      question: "A 19-year-old G1P0 woman at 39 weeks develops generalized seizures in the setting of pre-eclampsia. Which of the following is the most likely cause of maternal death in this scenario?",
-      options: ["Intracerebral hemorrhage","Aspiration pneumonia","Myocardial infarction","Electrolyte abnormalities","Pulmonary edema"],
-      answer: "Intracerebral hemorrhage"
+      "question": "A 19-year-old G1P0 woman at 39 weeks develops generalized seizures in the setting of pre-eclampsia. Which of the following is the most likely cause of maternal death?",
+      "options": ["Intracerebral hemorrhage", "Aspiration pneumonia", "Myocardial infarction", "Electrolyte abnormalities", "Pulmonary edema"],
+      "answer": "Intracerebral hemorrhage"
     },
     {
-      question: "A 33-year-old at 29 weeks, BP 150/90, protein/Cr 0.6, rest normal. Best management?",
-      options: ["Expectant management","Antihypertensive therapy","Induction of labor","Cesarean section"],
-      answer: "Expectant management"
+      "question": "A 33-year-old at 29 weeks, BP 150/90, protein/Cr 0.6, rest normal. Best management?",
+      "options": ["Expectant management", "Antihypertensive therapy", "Induction of labor", "Cesarean section"],
+      "answer": "Expectant management"
     },
     {
-      question: "A 25-year-old at 28 weeks with severe pre-eclampsia, platelets 98,000, BP 160/100, treated with hydralazine. What is the most appropriate indication for delivery?",
-      options: ["Patient develops pulmonary edema","Urine protein increases to 5 g/24 hr","BP persists in range 150/95","Repeat platelets 95,000","Patient reaches 32 weeks"],
-      answer: "Patient develops pulmonary edema"
+      "question": "A 25-year-old at 28 weeks with severe pre-eclampsia, platelets 98,000, BP 160/100, treated with hydralazine. Most appropriate indication for delivery?",
+      "options": ["Patient develops pulmonary edema", "Urine protein increases to 5 g/24 hr", "BP persists in range 150/95", "Repeat platelets 95,000", "Patient reaches 32 weeks"],
+      "answer": "Patient develops pulmonary edema"
     },
     {
-      question: "Postpartum day 1, woman with headache + visual problems, BP 150/95, P/C 0.5. Next step?",
-      options: ["Ophthalmic eye drops to both eyes","Antihypertensive agent","CT imaging of brain","MRI of brain","IV Mannitol"],
-      answer: "Antihypertensive agent"
+      "question": "Postpartum day 1, woman with headache + visual problems, BP 150/95, P/C 0.5. Next step?",
+      "options": ["Ophthalmic eye drops to both eyes", "Antihypertensive agent", "CT imaging of brain", "MRI of brain", "IV Mannitol"],
+      "answer": "Antihypertensive agent"
     },
     {
-      question: "A 28-year-old G2P1 with chronic hypertension, NST shows FHR 140, no accelerations/decelerations. Best next step?",
-      options: ["Perform a biophysical profile","Schedule cesarean immediately","Repeat NST in 1 week","Induce labor within 24 hours"],
-      answer: "Perform a biophysical profile"
+      "question": "A 28-year-old G2P1 with chronic hypertension, NST shows FHR 140, no accelerations/decelerations. Best next step?",
+      "options": ["Perform a biophysical profile", "Schedule cesarean immediately", "Repeat NST in 1 week", "Induce labor within 24 hours"],
+      "answer": "Perform a biophysical profile"
     },
     {
-      question: "A 40-year-old woman in labor, BP 145/90, has a tonic-clonic seizure.",
-      options: ["Admission for observation and investigation","Intravenous antihypertensives","Magnesium hydroxide","Induction of labor"],
-      answer: "Admission for observation and investigation"
+      "question": "A 40-year-old woman in labor, BP 145/90, has a tonic-clonic seizure.",
+      "options": ["Admission for observation and investigation", "Intravenous antihypertensives", "Magnesium hydroxide", "Induction of labor"],
+      "answer": "Admission for observation and investigation"
     },
     {
-      question: "A 32-year-old at 38 weeks, previous preeclampsia, BP 130/85, ALT 70.",
-      options: ["Outpatient monitoring of BP","Immediate cesarean section","Admission for observation","Oral antihypertensive"],
-      answer: "Admission for observation"
+      "question": "A 32-year-old at 38 weeks, previous preeclampsia, BP 130/85, ALT 70.",
+      "options": ["Outpatient monitoring of BP", "Immediate cesarean section", "Admission for observation", "Oral antihypertensive"],
+      "answer": "Admission for observation"
     },
     {
-      question: "A 24-year-old at 32 weeks, severe abdominal pain + vaginal bleeding, BP 160/95.",
-      options: ["Intravenous antihypertensives","Immediate Cesarean section","Oral antihypertensive","Admission for observation"],
-      answer: "Immediate Cesarean section"
+      "question": "A 24-year-old at 32 weeks, severe abdominal pain + vaginal bleeding, BP 160/95.",
+      "options": ["Intravenous antihypertensives", "Immediate Cesarean section", "Oral antihypertensive", "Admission for observation"],
+      "answer": "Immediate Cesarean section"
     },
     {
-      question: "A 36-year-old woman at 32 weeks’ gestation has BP 140/86, no proteinuria, and is asymptomatic. What is the best management?",
-      options: ["Start oral antihypertensive","Outpatient monitoring","None of the above","Admit for observation"],
-      answer: "Outpatient monitoring"
+      "question": "A 36-year-old woman at 32 weeks’ gestation has BP 140/86, no proteinuria, and is asymptomatic. Best management?",
+      "options": ["Start oral antihypertensive", "Outpatient monitoring", "None of the above", "Admit for observation"],
+      "answer": "Outpatient monitoring"
     },
     {
-      question: "All of the following drugs are used to manage hypertension in pregnancy except:",
-      options: ["Hydralazine","Methyldopa","Ranitidine","Labetalol","Nifedipine"],
-      answer: "Ranitidine"
+      "question": "All of the following drugs are used to manage hypertension in pregnancy except:",
+      "options": ["Hydralazine", "Methyldopa", "Ranitidine", "Labetalol", "Nifedipine"],
+      "answer": "Ranitidine"
     },
     {
-      question: "Which of the following drugs provides both alpha- and beta-blockade for managing hypertension in pregnancy?",
-      options: ["Labetalol","Ramipril","Atenolol","Nifedipine","Methyldopa"],
-      answer: "Labetalol"
+      "question": "Which of the following drugs provides both alpha- and beta-blockade for managing hypertension in pregnancy?",
+      "options": ["Labetalol", "Ramipril", "Atenolol", "Nifedipine", "Methyldopa"],
+      "answer": "Labetalol"
     },
     {
-      question: "A woman requires an antihypertensive agent for severe pre-eclampsia.",
-      options: ["Nifedipine","Methyldopa","Labetalol","Atenolol","Propylthiouracil"],
-      answer: "Labetalol"
+      "question": "A woman requires an antihypertensive agent for severe pre-eclampsia.",
+      "options": ["Nifedipine", "Methyldopa", "Labetalol", "Atenolol", "Propylthiouracil"],
+      "answer": "Labetalol"
     },
     {
-      question: "Case: BP 150/100, platelets 90k, no proteinuria, 39 weeks GA. Most correct diagnosis?",
-      options: ["Preeclampsia with severe features","Eclampsia","Preeclampsia","Gestational hypertension","Chronic hypertension with superimposed preeclampsia"],
-      answer: "Preeclampsia with severe features"
+      "question": "Case: BP 150/100, platelets 90k, no proteinuria, 39 weeks GA. Most correct diagnosis?",
+      "options": ["Preeclampsia with severe features", "Eclampsia", "Preeclampsia", "Gestational hypertension", "Chronic hypertension with superimposed preeclampsia"],
+      "answer": "Preeclampsia with severe features"
     },
     {
-      question: "While being evaluated, she had a tonic-clonic seizure. Next step in management?",
-      options: ["Magnesium sulfate","Antihypertensive therapy","Low-dose aspirin","Cesarean delivery","Dilantin (phenytoin)"],
-      answer: "Magnesium sulfate"
+      "question": "While being evaluated, she had a tonic-clonic seizure. Next step in management?",
+      "options": ["Magnesium sulfate", "Antihypertensive therapy", "Low-dose aspirin", "Cesarean delivery", "Dilantin (phenytoin)"],
+      "answer": "Magnesium sulfate"
     },
     {
-      question: "A 37-year-old woman, 8 weeks pregnant, on chlorothiazide for essential hypertension. Best recommendation?",
-      options: ["Change antihypertensive, start 75 mg aspirin, aim to keep BP <140/90","Do not change antihypertensive, start 150 mg aspirin, aim to keep BP <140/90","Change antihypertensive, start 150 mg aspirin, aim to keep BP <150/100","Do not change antihypertensive, start 75 mg aspirin, aim to keep BP <150/100","Change antihypertensive, start 75 mg aspirin, aim to keep BP <150/100"],
-      answer: "Change antihypertensive, start 75 mg aspirin, aim to keep BP <140/90"
+      "question": "A 37-year-old woman, 8 weeks pregnant, on chlorothiazide for essential hypertension. Best recommendation?",
+      "options": [
+        "Change antihypertensive, start 75 mg aspirin, aim to keep BP <140/90",
+        "Do not change antihypertensive, start 150 mg aspirin, aim to keep BP <140/90",
+        "Change antihypertensive, start 150 mg aspirin, aim to keep BP <150/100",
+        "Do not change antihypertensive, start 75 mg aspirin, aim to keep BP <150/100",
+        "Change antihypertensive, start 75 mg aspirin, aim to keep BP <150/100"
+      ],
+      "answer": "Change antihypertensive, start 75 mg aspirin, aim to keep BP <140/90"
     },
     {
-      question: "A woman is booking for antenatal care. She had a previous delivery at 32 weeks due to severe preeclampsia. Which of the following is the most appropriate intervention at this visit?",
-      options: ["Start low-dose aspirin (75 mg/day)","Full blood count (FBC)","Cervical length and fetal fibronectin","Refer to fetal medicine unit","Observe only"],
-      answer: "Start low-dose aspirin (75 mg/day)"
+      "question": "A woman is booking for antenatal care. She had a previous delivery at 32 weeks due to severe preeclampsia. Most appropriate intervention at this visit?",
+      "options": ["Start low-dose aspirin (75 mg/day)", "Full blood count (FBC)", "Cervical length and fetal fibronectin", "Refer to fetal medicine unit", "Observe only"],
+      "answer": "Start low-dose aspirin (75 mg/day)"
     }
   ]
-};
-</script>
+}
