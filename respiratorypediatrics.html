@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Respiratory Pediatrics MCQs</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f5f5f5;
+    }
+    .question-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+    .question {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .options {
+      list-style: none;
+      padding-left: 0;
+    }
+    .options li {
+      margin-bottom: 5px;
+    }
+    .answer {
+      margin-top: 10px;
+      font-weight: bold;
+      color: green;
+      display: none;
+    }
+    button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+      font-size: 14px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Respiratory Pediatrics MCQs</h1>
+<div id="quiz-container"></div>
+
+<script>
+  // Load the JSON file
+  fetch('respiratorypediatrics.json')
+    .then(response => response.json())
+    .then(data => {
+      const container = document.getElementById('quiz-container');
+
+      data.forEach((item, index) => {
+        const card = document.createElement('div');
+        card.className = 'question-card';
+
+        const q = document.createElement('div');
+        q.className = 'question';
+        q.textContent = (index + 1) + '. ' + item.question;
+        card.appendChild(q);
+
+        const ul = document.createElement('ul');
+        ul.className = 'options';
+        item.options.forEach(option => {
+          const li = document.createElement('li');
+          li.textContent = option;
+          ul.appendChild(li);
+        });
+        card.appendChild(ul);
+
+        const ans = document.createElement('div');
+        ans.className = 'answer';
+        ans.textContent = 'Answer: ' + item.answer;
+        card.appendChild(ans);
+
+        const btn = document.createElement('button');
+        btn.textContent = 'Show Answer';
+        btn.onclick = () => {
+          ans.style.display = ans.style.display === 'none' ? 'block' : 'none';
+        };
+        card.appendChild(btn);
+
+        container.appendChild(card);
+      });
+    })
+    .catch(err => {
+      console.error('Error loading JSON file:', err);
+      document.getElementById('quiz-container').textContent = 'Failed to load questions.';
+    });
+</script>
+
+</body>
+</html>
