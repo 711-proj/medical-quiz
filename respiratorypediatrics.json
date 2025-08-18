@@ -1,0 +1,266 @@
+[
+  {
+    "question": "What's the maximum O2 flow rate that you can provide using nasal prongs?",
+    "options": [
+      "a) 10 liter/min",
+      "b) 0.5 liter/min",
+      "c) 4 liter/min",
+      "d) 2 liter/min",
+      "e) 7 liter/min"
+    ],
+    "answer": "c) 4 liter/min"
+  },
+  {
+    "question": "The most common complication that follows chronic otitis media with effusion is:",
+    "options": [
+      "a) Meningitis",
+      "b) Mastoiditis",
+      "c) Permanent nerve deafness",
+      "d) Brain abscess",
+      "e) Impaired speech and language development"
+    ],
+    "answer": "e) Impaired speech and language development"
+  },
+  {
+    "question": "Significant number of children with the following conditions is infected with Respiratory Syncytial Virus (RSV):",
+    "options": [
+      "a) Acute otitis media",
+      "b) Bronchiolitis",
+      "c) Acute diarrheal disease",
+      "d) Acute myocarditis",
+      "e) Follicular tonsillitis"
+    ],
+    "answer": "b) Bronchiolitis"
+  },
+  {
+    "question": "A 15 months old child presented with drooling, difficulty feeding and stridor for 24 hours. Temp 40°C. He was diagnosed with epiglottitis. Which one of the following is true regarding the management of this condition?",
+    "options": [
+      "A) Spatula (tongue depressor) examination is mandatory to confirm the diagnosis",
+      "B) Intravenous benzyl penicillin is the drug of choice",
+      "C) Tracheostomy is not indicated",
+      "D) Chemoprophylaxis is recommended for household contacts of all ages",
+      "E) Intravenous Ceftriaxone is indicated"
+    ],
+    "answer": "E) Intravenous Ceftriaxone is indicated"
+  },
+  {
+    "question": "18 months presents with stridor and barking cough, he looks irritable and has central cyanosis; the mother reported a change in voice. What is the best treatment?",
+    "options": [
+      "a) Intravenous broad spectrum antibiotics",
+      "b) Nebulized short acting salbutamol",
+      "c) Immediate tracheostomy",
+      "d) Rigid bronchoscope",
+      "e) Racemic epinephrine and oxygen"
+    ],
+    "answer": "e) Racemic epinephrine and oxygen"
+  },
+  {
+    "question": "3 years old unvaccinated child presents with high fever and stridor for 2 days, he looks unwell, open his mouth with drooling of saliva. What is the first step in his management?",
+    "options": [
+      "a) Start intravenous ceftriaxone",
+      "b) Take pharyngeal swab and culture",
+      "c) Secure the airway",
+      "d) Examine the throat for evidence of discharge",
+      "e) Obtain lateral neck x ray"
+    ],
+    "answer": "c) Secure the airway"
+  },
+  {
+    "question": "Which of the following is an absolute indication for adenoidectomy?",
+    "options": [
+      "a) More than 3 attacks per year",
+      "b) Patient wish",
+      "c) Peritonsillar abscess",
+      "d) Obstructive sleeping apnea",
+      "e) Persistent voice change"
+    ],
+    "answer": "d) Obstructive sleeping apnea"
+  },
+  {
+    "question": "Which of the following is recognized as an indication for tonsillectomy?",
+    "options": [
+      "a) Attacks more than 2 per year",
+      "b) Association with otitis media",
+      "c) Snoring",
+      "d) Quinsy",
+      "e) Foul mouth odor"
+    ],
+    "answer": "d) Quinsy"
+  },
+  {
+    "question": "A 2 years old boy accidentally drank kerosene. He coughed for several minutes and then vomited. He was brought to hospital after one hour with normal vitals. Most appropriate next step?",
+    "options": [
+      "a) Intravenous antibiotics",
+      "b) Oral antibiotics and steroids",
+      "c) Intravenous corticosteroids",
+      "d) Reassurance and send home",
+      "e) Salbutamol by nebulizer"
+    ],
+    "answer": "d) Reassurance and send home"
+  },
+  {
+    "question": "A young infant is rushed to the emergency room. The child is cyanotic, gasping and has a heart rate of 40 per minute. Most appropriate immediate intervention?",
+    "options": [
+      "a) Intraosseous cannulation",
+      "b) Synchronized cardioversion",
+      "c) Chest compression",
+      "d) 100% oxygen by face mask",
+      "e) Open airway and Bag-mask ventilation"
+    ],
+    "answer": "e) Open airway and Bag-mask ventilation"
+  },
+  {
+    "question": "You and your colleague are practicing CPR to an infant manikin in the skills laboratory. What’s the ratio of the chest compressions to positive pressure ventilations?",
+    "options": [
+      "a) 3 to 1",
+      "b) 30 to 2",
+      "c) 15 to 2",
+      "d) 15 to 1",
+      "e) 2 to 30"
+    ],
+    "answer": "c) 15 to 2"
+  },
+  {
+    "question": "A 3 year old female presented with a chronic cough for 2 years, greenish sputum, fever, she lost 2 kg in the past one year and has chronic diarrhea. Investigation for diagnosis?",
+    "options": [
+      "a) Abdominal CT",
+      "b) High resolution CT",
+      "c) Frontal sinus CT",
+      "d) Sputum ZN",
+      "e) Chloride Sweat test"
+    ],
+    "answer": "e) Chloride Sweat test"
+  },
+  {
+    "question": "Which of the followings is not a feature of cystic fibrosis in infancy?",
+    "options": [
+      "a) Situs inversus",
+      "b) Meconium ileus",
+      "c) Prolonged jaundice",
+      "d) Failure to thrive",
+      "e) Steatorrhea"
+    ],
+    "answer": "a) Situs inversus"
+  },
+  {
+    "question": "A 15 months old child was referred to the outpatient clinic because of a sudden onset of fast breathing while playing with kids. Examination: Temp 37.5 °C, RR 70/min, expiratory bronchi with diminished air entry in right chest. Diagnosis?",
+    "options": [
+      "a) Bronchial asthma",
+      "b) Bronchopneumonia",
+      "c) Bronchiolitis",
+      "d) Foreign body inhalation",
+      "e) Heart Failure"
+    ],
+    "answer": "d) Foreign body inhalation"
+  },
+  {
+    "question": "A 9 months old child with shortness of breath, runny nose and intermittent fever for 2 days. RR 64/min, chest indrawing, wheezes and scattered crepitations. Most likely diagnosis?",
+    "options": [
+      "a) Bronchopneumonia",
+      "b) Lobar Pneumonia",
+      "c) Bronchiolitis",
+      "d) Heart Failure",
+      "e) Bronchial asthma"
+    ],
+    "answer": "c) Bronchiolitis"
+  },
+  {
+    "question": "Which of the following statements regarding tuberculosis in children is NOT accurate?",
+    "options": [
+      "a) Children are not usually infectious",
+      "b) 50% of exposed children are infected",
+      "c) Disease in children is reticuloendothelial",
+      "d) Phlyctenular conjunctivitis is manifestation of miliary TB",
+      "e) Lymph nodes are the commonest extrapulmonary sites to be involved"
+    ],
+    "answer": "d) Phlyctenular conjunctivitis is manifestation of miliary TB"
+  },
+  {
+    "question": "On long treatment of asthma, when LABA (long acting B2 agonist) is administered?",
+    "options": [
+      "a) Step 1",
+      "b) Step 2",
+      "c) Step 3",
+      "d) Step 4",
+      "e) Step 5"
+    ],
+    "answer": "c) Step 3"
+  },
+  {
+    "question": "3 year old unvaccinated child presents with stridor and irritability, has high grade fever, mouth showed whitish membranes over the tonsils. Best modality of management?",
+    "options": [
+      "a) IV Ampicillin and gentamycin",
+      "b) Tracheotomy",
+      "c) Erythromycin and antitoxin",
+      "d) Sedative and racemic epinephrine",
+      "e) Antitoxin and intravenous fluid"
+    ],
+    "answer": "c) Erythromycin and antitoxin"
+  },
+  {
+    "question": "Which one of the following is the least useful in assessing the severity of an acute asthmatic attack in children?",
+    "options": [
+      "a) Tachycardia",
+      "b) Pulsus paradoxus",
+      "c) Fall in the respiratory rate",
+      "d) Use of accessory muscles",
+      "e) Impaired consciousness"
+    ],
+    "answer": "c) Fall in the respiratory rate"
+  },
+  {
+    "question": "An 18 months old male presented with acute stridor. Most appropriate management?",
+    "options": [
+      "A) Nebulised adrenaline and Intramuscular dexamethasone",
+      "B) Nebulised sodium acetylcystine",
+      "C) Intravenous ceftriaxone",
+      "D) Nebulised Salbutamol and Oxygen",
+      "E) Low oxygen saturations"
+    ],
+    "answer": "A) Nebulised adrenaline and Intramuscular dexamethasone"
+  },
+  {
+    "question": "A 10 years old boy is brought with a one week history of chest pain and fever. O/E: looks ill, RR 50/min, trachea central, right chest: reduced movements, reduced tactile vocal fremitus, dull percussion note. Most likely diagnosis?",
+    "options": [
+      "A) Right sided emphysema",
+      "B) Right sided pneumothorax",
+      "C) Collapsed right lung",
+      "D) Right sided lobar pneumonia",
+      "E) Right sided empyema"
+    ],
+    "answer": "E) Right sided empyema"
+  },
+  {
+    "question": "Which one of the following is the best indicator of life threatening asthma?",
+    "options": [
+      "A) Poor response to intravenous hydrocortisone",
+      "B) Previous history of ICU admission",
+      "C) Recurrent episodes of acute Asthma",
+      "D) Persistent nocturnal Asthma",
+      "E) Low oxygen saturations"
+    ],
+    "answer": "E) Low oxygen saturations"
+  },
+  {
+    "question": "An 18-month-old child presents with snoring, breathing with an open mouth and failure to thrive. Most likely diagnosis?",
+    "options": [
+      "a) Allergic rhinitis",
+      "b) Nasal polyps",
+      "c) Adenoid hypertrophy",
+      "d) Laryngomalacia",
+      "e) Peritonsillar abscess"
+    ],
+    "answer": "c) Adenoid hypertrophy"
+  },
+  {
+    "question": "You are seeing a five years old child with acute asthma. Which one of the following is correct?",
+    "options": [
+      "a) Oxygen is only needed in the presence of cyanosis",
+      "b) Nebulized Salbutamol should be given initially",
+      "c) Hydrocortisone is to be given only if patient not improving",
+      "d) Chest X- Ray is routinely requested",
+      "e) Antibiotic administration is essential"
+    ],
+    "answer": "b) Nebulized Salbutamol should be given initially"
+  }
+]
