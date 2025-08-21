@@ -78,4 +78,37 @@
   },
   {
     "question": "A patient with epigastric mass and history of Barrett's oesophagus is wisely diagnosed to have:",
-    "options": ["Adenocarcinoma of the oesophagus.", "Carcinoma of the stomach.", "Carcinoma body of pancreas.", "P
+    "options": ["Adenocarcinoma of the oesophagus", "Carcinoma of the stomach", "Carcinoma body of pancreas", "Pseudopancreatic cyst", "Abdominal aortic aneurysm"],
+    "answer": "Adenocarcinoma of the oesophagus"
+  },
+  {
+    "question": "A 58-years-old man, with a long history of achalasia, presents with dysphagia that has worsened within the past few days. He has lost 6.5 Kg within 1 month. Upper GI endoscopy revealed a friable mass. What’s the most likely diagnosis?",
+    "options": ["Adenocarcinoma of esophagus", "Squamous cell carcinoma of esophagus", "Leiomyoma", "Esophageal web", "Barrett’s esophagus"],
+    "answer": "Squamous cell carcinoma of esophagus"
+  },
+  {
+    "question": "A 59-year-old man, with a long history of heartburn, has undergone upper GI endoscopy, which showed Barrett’s esophagus with low-grade dysplasia. What’s the best next step in management?",
+    "options": ["Partial esophagectomy", "Total esophagectomy", "Endoscopic mucosal resection (EMR)", "Surveillance with upper GI endoscopy and biopsy every 6 months", "None of the above"],
+    "answer": "Surveillance with upper GI endoscopy and biopsy every 6 months"
+  },
+  {
+    "question": "A 75-years-old female presents with a 3 weeks history of progressive dysphagia that started with solids, then involved liquids as well. She has lost 5 Kg in a short time period. Upper GI endoscopy was performed and showed Barrett’s esophagus. This pre-malignant condition is associated with which type of esophageal cancers?",
+    "options": ["Adenocarcinoma", "Squamous cell carcinoma", "Leiomyoma", "Esophageal sarcoma", "None of the above"],
+    "answer": "Adenocarcinoma"
+  },
+  {
+    "question": "A 35-years-old woman is complaining of dysphagia to solids and liquids, associated with chest pain, and regurgitation of food. Over the past month, the patient lost around 4.5 Kg. The patient is not a smoker, nor an alcoholic. What’s the gold standard diagnosis for this condition?",
+    "options": ["Upper GI endoscopy", "Urea breath test", "24-hour esophageal pH monitoring", "CT scan of the abdomen", "Esophageal manometry"],
+    "answer": "Esophageal manometry"
+  },
+  {
+    "question": "Regarding the patient in the question above. What’s the best treatment for her condition?",
+    "options": ["Upper GI endoscopy + biopsy + regular follow up", "Laparoscopic Heller’s myotomy with post-operative pantoprazole", "Botulinum toxin injection in the lower esophagus", "Esophageal balloon dilatation", "Esophagectomy to prevent progression to cancer"],
+    "answer": "Laparoscopic Heller’s myotomy with post-operative pantoprazole"
+  },
+  {
+    "question": "A 63-years-old male, with a long history of intestinal bilharziasis, came to the ER with hematemesis. His BP was 90/60 mmHg. What’s the best initial treatment for this condition?",
+    "options": ["Endoscopic variceal (band) ligation", "Endoscopic sclerotherapy", "IV octreotide (vasopressin)", "Esophageal balloon tamponade (Sengstaken-Blackmore tube)", "Emergency porto-caval shunt"],
+    "answer": "IV octreotide (vasopressin)"
+  }
+]
