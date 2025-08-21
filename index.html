@@ -74,7 +74,16 @@
       </ul>
     </ul>
 
-    <li>Surgery</li>
+    <!-- قسم الجراحة -->
+    <li onclick="toggleSubtopics('surgery')">Surgery</li>
+    <ul id="surgery" class="subtopics">
+      <li onclick="toggleSubtopics('git')">GIT</li>
+      <ul id="git" class="subtopics">
+        <li onclick="openQuizPage('surgeryesophagus.json', 'surgeryesophagus.html')">Esophagus</li>
+        <li onclick="openQuizPage('surgerysmallintestines.json', 'surgerysmallintestines.html')">Small Intestines</li>
+        <li onclick="openQuizPage('surgerylargeintestines.json', 'surgerylargeintestines.html')">Large Intestines</li>
+      </ul>
+    </ul>
 
     <!-- قسم الأطفال -->
     <li onclick="toggleSubtopics('pediatrics')">Pediatrics</li>
