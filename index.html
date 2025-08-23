@@ -64,17 +64,27 @@
   <p>Select a system to begin:</p>
 
   <ul>
+    <!-- Internal Medicine -->
     <li onclick="toggleSubtopics('internal')">Internal Medicine</li>
     <ul id="internal" class="subtopics">
+
+      <!-- Neurology -->
       <li onclick="toggleSubtopics('neurology')">Neurology</li>
       <ul id="neurology" class="subtopics">
         <li onclick="openQuizPage('headache.json', 'headache.html')">Headache</li>
         <li onclick="openQuizPage('meningitis.json', 'meningitis.html')">Meningitis</li>
         <li onclick="openQuizPage('stroke.json', 'stroke.html')">Stroke</li>
       </ul>
+
+      <!-- Cardiology -->
+      <li onclick="toggleSubtopics('cardiology')">Cardiology</li>
+      <ul id="cardiology" class="subtopics">
+        <li onclick="openQuizPage('htn-cardio-internal-med.json', 'htn-cardio-internal-med.html')">Hypertension</li>
+        <li onclick="openQuizPage('hf-cardio-internal-med.json', 'hf-cardio-internal-med.html')">Heart Failure</li>
+      </ul>
     </ul>
 
-    <!-- قسم الجراحة -->
+    <!-- Surgery -->
     <li onclick="toggleSubtopics('surgery')">Surgery</li>
     <ul id="surgery" class="subtopics">
       <li onclick="toggleSubtopics('git')">GIT</li>
@@ -85,13 +95,13 @@
       </ul>
     </ul>
 
-    <!-- قسم الأطفال -->
+    <!-- Pediatrics -->
     <li onclick="toggleSubtopics('pediatrics')">Pediatrics</li>
     <ul id="pediatrics" class="subtopics">
       <li onclick="openQuizPage('respiratorypediatrics.json', 'respiratorypediatrics.html')">Respiratory System</li>
     </ul>
 
-    <!-- قسم النساء والولادة -->
+    <!-- OBGYN -->
     <li onclick="toggleSubtopics('obgyn')">Obstetrics & Gynecology</li>
     <ul id="obgyn" class="subtopics">
       <li onclick="openQuizPage('htninpregnancy.json', 'htninpregnancy.html')">HTN in Pregnancy</li>
