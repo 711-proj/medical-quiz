@@ -8,39 +8,43 @@
       font-family: Arial, sans-serif;
       margin: 20px;
       background: linear-gradient(135deg, #f0f4ff, #d9e4f5);
+      font-size: 18px; /* تكبير الخط الأساسي */
     }
     h1 {
       text-align: center;
       color: #003366;
+      font-size: 32px; /* عنوان أكبر */
     }
     .question-card {
       background-color: #fff;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      padding: 20px;
+      padding: 25px;
       margin-bottom: 25px;
       transition: transform 0.2s;
+      font-size: 20px; /* حجم النص داخل الكرت */
     }
     .question-card:hover {
       transform: scale(1.01);
     }
     .question {
       font-weight: bold;
-      margin-bottom: 12px;
-      font-size: 18px;
-      color: #333;
+      margin-bottom: 15px;
+      font-size: 22px; /* تكبير السؤال */
+      color: #222;
     }
     .options {
       list-style: none;
       padding-left: 0;
     }
     .options li {
-      margin-bottom: 8px;
-      padding: 10px;
+      margin-bottom: 12px;
+      padding: 14px;
       background: #f9f9f9;
       border-radius: 8px;
       cursor: pointer;
       transition: background 0.2s, transform 0.1s;
+      font-size: 20px; /* تكبير حجم الخيارات */
     }
     .options li:hover {
       background: #e6f0ff;
@@ -76,7 +80,6 @@
   fetch('hf-cardio-internal-med.json')
     .then(response => response.json())
     .then(data => {
-      // Shuffle questions
       shuffleArray(data);
 
       const container = document.getElementById('quiz-container');
