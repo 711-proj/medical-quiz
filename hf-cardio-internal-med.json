@@ -1,0 +1,67 @@
+[
+  {
+    "question": "You have ordered a B-type natriuretic peptide (BNP) test on a patient with suspected heart failure. It has come back as being slightly elevated. Which one of the following is least likely to elevate BNP levels?",
+    "options": ["Pericarditis", "Renal failure", "Cor pulmonale", "Anaemia", "COPD"],
+    "answer": "Pericarditis"
+  },
+  {
+    "question": "A patient with heart failure developed renal failure with hyperkalemia. Which two drugs have to be stopped?",
+    "options": ["Spironolactone and Frusemide", "Lisinopril and Frusemide", "Amlodipine and Lisinopril", "Frusemide and B blockers", "Spironolactone and Lisinopril"],
+    "answer": "Spironolactone and Lisinopril"
+  },
+  {
+    "question": "A 55-year-old man presents with gynaecomastia. He is receiving treatment for heart failure and gastro-oesophageal reflux. Which of the following drugs he takes is most likely to be responsible for his gynaecomastia?",
+    "options": ["Carvedilol", "Furosemide", "Ramipril", "Spironolactone"],
+    "answer": "Spironolactone"
+  },
+  {
+    "question": "A 75-year-old man presents with shortness of breath on exertion. He is unable to lie flat due to breathlessness and sleeps on several pillows. He wakes up during the night gasping for air. He has a history of hypertension. On examination there is bi-basal crackles. What is the most likely diagnosis?",
+    "options": ["COPD", "Atrial fibrillation", "Heart failure", "Pneumonia"],
+    "answer": "Heart failure"
+  },
+  {
+    "question": "The following are among the causes of dilated cardiomyopathy except:",
+    "options": ["Thiamine deficiency", "Collagen vascular disease", "Hypophosphatemia", "Hypocalcemia", "Amyloidosis"],
+    "answer": "Amyloidosis"
+  },
+  {
+    "question": "A 40-year-old female presents complaining of SOB and lower limb edema, on examination there is loud second heart sound and a raised JVP. Which of the following is a cause of isolated right heart failure?",
+    "options": ["Dilated cardiomyopathy", "Systemic hypertension", "Pulmonary hypertension", "Beri-Beri syndrome", "Aortic stenosis"],
+    "answer": "Pulmonary hypertension"
+  },
+  {
+    "question": "All of the following drugs are known to have a significant mortality benefit in patients with congestive heart failure except:",
+    "options": ["Metoprolol", "Ramipril", "Spironolactone", "Digoxin", "Carvedilol"],
+    "answer": "Digoxin"
+  },
+  {
+    "question": "A 80-year-old woman presented with SOB, on examination there is raised JVP and basal crackles. Which one of the following drugs is most likely to improve her long-term prognosis?",
+    "options": ["furosemide", "aspirin", "metoprolol", "nitrate"],
+    "answer": "metoprolol"
+  },
+  {
+    "question": "The following are features of left ventricular failure except:",
+    "options": ["Pulsus alternans", "Pulsus paradoxus", "Paroxysmal nocturnal dyspnea", "Sinus tachycardia", "Gallop rhythm"],
+    "answer": "Pulsus paradoxus"
+  },
+  {
+    "question": "A 45-year-old man comes to the emergency room with severe dyspnea. Physical exam reveals prolonged expiration with loud wheezing, a diffuse apical impulse displaced to the left of the mid-clavicular line, and an apical s3 gallop. The most likely diagnosis is:",
+    "options": ["left ventricular failure", "acute asthmatic bronchitis", "acute bronchopneumonia", "decompensated chronic obstructive lung disease", "none of the above"],
+    "answer": "left ventricular failure"
+  },
+  {
+    "question": "A patient with a ventricular septal defect (VSD) who does not receive treatment is most likely to develop which condition over the years?",
+    "options": ["Pulmonary hypertension, followed by Eisenmenger syndrome", "Left ventricular hypertrophy", "Aortic dissection", "Cerebral embolism"],
+    "answer": "Pulmonary hypertension, followed by Eisenmenger syndrome"
+  },
+  {
+    "question": "In patients with underlying cardiac disease, congestive cardiac failure can be precipitated by:",
+    "options": ["excessive salt intake", "non-steroidal anti-inflammatory drugs", "arrhythmias", "pulmonary embolism", "all of the above"],
+    "answer": "all of the above"
+  },
+  {
+    "question": "A 72-year-old man who has a history of ischaemic heart disease and left ventricular dysfunction is admitted with dyspnoea. He has not taken his diuretics for three days. On examination you note bilateral crackles to the midzones and a respiratory rate of 30/min. Which other clinical finding is most specific with this presentation?",
+    "options": ["Bisferiens pulse", "Wide pulse pressure", "Warm peripheries", "Pulsus alternans", "Fourth heart sound (S4)"],
+    "answer": "Pulsus alternans"
+  }
+]
