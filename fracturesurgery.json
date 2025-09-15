@@ -1,0 +1,72 @@
+[
+  {
+    "question": "A Motor bike rider brought to the ER with open fracture of right femur with severe soft tissue damage and inadequate coverage, but no neurovascular damage. His injury is considered GUSTILO type:",
+    "options": ["2", "3a", "3b", "1", "3c"],
+    "answer": "3b"
+  },
+  {
+    "question": "A young secondary school student brought to the ER with open fracture of right tibia, the most important first step to decrease the rate of infection is:",
+    "options": ["good debridement", "Intravenous antibiotics", "bacterial swab & culture", "covering the wound", "good irrigation"],
+    "answer": "good irrigation"
+  },
+  {
+    "question": "All of the following are LATE complications of open fractures except:",
+    "options": ["Malunion", "Compartment syndrome", "Nonunion", "Osteomyelitis", "Osteonecrosis"],
+    "answer": "Compartment syndrome"
+  },
+  {
+    "question": "The important step in the treatment of an open fracture is:",
+    "options": ["External fixation", "Antibiotic", "Life support (ABC)", "Painkiller", "Debridement"],
+    "answer": "Debridement"
+  },
+  {
+    "question": "Management of an open fracture should always include each of the following EXCEPT:",
+    "options": ["Assessment of neurovascular status", "Reduction and fixation of fracture", "Irrigation and debridement of wound", "Application of sterile dressing", "Application of topical antibiotics"],
+    "answer": "Application of topical antibiotics"
+  },
+  {
+    "question": "A 40-years-old male was involved in a horrible RTA, and sustains an open tibial fracture of his left leg. Which of the following systems is used to classify the injury?",
+    "options": ["Garden system", "Weber system", "Salter – Harris system", "Gustilo – Anderson system", "None of the above"],
+    "answer": "Gustilo – Anderson system"
+  },
+  {
+    "question": "An 18 year-old motorcyclist presents in the emergency department following an accident. He has a compound tibia and fibula fracture of the right leg and on examination the right leg has no pulses. Your immediate treatment should be:",
+    "options": ["Immediate angiogram", "Immediate surgery", "Casting and/or splinting", "Reduction and splinting", "X-ray"],
+    "answer": "Immediate surgery"
+  },
+  {
+    "question": "Assessment of muscle viability during wound toilet for open fractures will not include:",
+    "options": ["Assessment of muscle contractility", "Assessment of muscle reflexes", "Assessment of muscle bleeding", "Observation of muscle color", "Feeling for muscle consistency"],
+    "answer": "Assessment of muscle reflexes"
+  },
+  {
+    "question": "Important operative measures in treating compound fractures are all followings except:",
+    "options": ["Division of the deep fascia", "Excision of dead tissues and removal of foreign bodies", "Ligation, suturing or grafting of damaged vessels", "Immediate repair of damaged nerve or tendon", "Intero-external fixation of compound fracture"],
+    "answer": "Immediate repair of damaged nerve or tendon"
+  },
+  {
+    "question": "A 30-years-old patient presented to the ER following RTA. He has sustained left tibial fracture, for which he underwent surgery to repair the fracture. On post-operative day 1, the patient had experienced dyspnea. His vitals show pulse rate of 110 beats/min, BP of 110/65 mmHg, respiratory rate of 26 breath/min, and low O2 saturation of 86%. What’s the most likely cause of this patient’s condition?",
+    "options": ["Pulmonary edema", "Nosocomial infection", "Spontaneous pneumothorax", "Tension pneumothorax", "Fat embolism"],
+    "answer": "Fat embolism"
+  },
+  {
+    "question": "Internal fixation is only indicated in management of compound fracture if:",
+    "options": ["Presence of marked skin loss", "Presence of marked muscle laceration", "Presence of nerve injury", "Presence of vascular arterial injury", "Presence of tendon injuries"],
+    "answer": "Presence of vascular arterial injury"
+  },
+  {
+    "question": "A 34-year-old man is extricated from an automobile after a motor vehicle collision. The patient has an obvious deformity of his right thigh consistent with a femur fracture. Upon closer examination of the right thigh, there is bone visible through an open wound. Which of the following is the most appropriate management of his open femur fracture?",
+    "options": ["IV antibiotics and cast or splint placement", "IV antibiotics and internal or external fixation", "Early irrigation and debridement, IV antibiotics, and cast or splint placement", "Early irrigation and debridement, IV antibiotics, and internal or external fixation", "Early irrigation and debridement, IV antibiotics, compartment decompression, and internal or external fixation"],
+    "answer": "Early irrigation and debridement, IV antibiotics, compartment decompression, and internal or external fixation"
+  },
+  {
+    "question": "A 22-year-old man presents with multiple injuries following a fall from his motorcycle at high speed. Injuries identified include a significant head injury, splenic rupture and an open right tibial diaphyseal fracture. He undergoes urgent splenectomy, with wound debridement and intramedullary nailing of his tibial fracture. He returns to the intensive therapy unit intubated and ventilated on inotropic support. On day 2 postoperatively his oxygen and ventilator requirements increase and chest radiographs reveal diffuse fluffy pulmonary infiltrates with a PaO2/FiO2 < 200 mmHg. Which of the following is the single most appropriate diagnosis?",
+    "options": ["Acute respiratory distress syndrome", "Cardiogenic shock", "hypovolaemic shock", "Fat embolism syndrome", "Septic shock"],
+    "answer": "Acute respiratory distress syndrome"
+  },
+  {
+    "question": "What is the most appropriate management of an open fracture?",
+    "options": ["Cannulated screw fixation", "External fixation", "Intramedullary fixation", "Wound debridement and washout with fracture fixation", "Wound debridement, washout and closure with fracture fixation"],
+    "answer": "Wound debridement and washout with fracture fixation"
+  }
+]
