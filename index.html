@@ -67,7 +67,6 @@
     <!-- Internal Medicine -->
     <li onclick="toggleSubtopics('internal')">Internal Medicine</li>
     <ul id="internal" class="subtopics">
-
       <!-- Neurology -->
       <li onclick="toggleSubtopics('neurology')">Neurology</li>
       <ul id="neurology" class="subtopics">
@@ -93,6 +92,10 @@
         <li onclick="openQuizPage('surgerysmallintestines.json', 'surgerysmallintestines.html')">Small Intestines</li>
         <li onclick="openQuizPage('surgerylargeintestines.json', 'surgerylargeintestines.html')">Large Intestines</li>
       </ul>
+      <!-- Fractures -->
+      <li onclick="openQuizPage('fracturesurgery.json', 'fracturesurgery.html')">Fractures</li>
+      <!-- Hernia -->
+      <li onclick="openQuizPage('herniasurgery.json', 'herniasurgery.html')">Hernia</li>
     </ul>
 
     <!-- Pediatrics -->
@@ -115,7 +118,6 @@
       sub.style.display = (sub.style.display === 'block') ? 'none' : 'block';
     }
 
-    // فتح صفحة جديدة مع تمرير اسم ملف JSON
     function openQuizPage(jsonFile, htmlFile) {
       const url = `${htmlFile}?file=${encodeURIComponent(jsonFile)}`;
       window.open(url, '_blank');
